@@ -1,0 +1,1977 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue Dec 24 14:23:57 2024
+# Process ID: 8480
+# Current directory: C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26100 C:\Users\gzr\Desktop\FPGA neural network\FPGA-CNN-LeNet\FPGA-CNN-LeNet.xpr
+# Log file: C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/vivado.log
+# Journal file: C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet\vivado.jou
+# Running On: DESKTOP-JO9H9ID, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 34142 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.xpr}
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at E:/Xlinx_Vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at E:/Xlinx_Vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at E:/Xlinx_Vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at E:/Xlinx_Vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at E:/Xlinx_Vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at E:/Xlinx_Vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at E:/Xlinx_Vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at E:/Xlinx_Vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at E:/Xlinx_Vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.gen/sources_1'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Kernel_single_channel_calc_TB_behav.wcfg'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xlinx_Vivado/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1885.168 ; gain = 250.566
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Softmax_layer_TB'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xlinx_Vivado/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Softmax_layer_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Softmax_layer_TB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Conv_calc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_calc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatAdd16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatAdd16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatMult16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatMult16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Window_partition.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Window_partition
+WARNING: [VRFC 10-2096] empty statement in sequential block [C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Window_partition.v:59]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/kernel_single_channel_calc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module kernel_single_channel_calc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Conv_single_kernel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_single_kernel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatVectorAdd16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatVectorAdd16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/AveragePooling.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AveragePooling_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Linear.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Linear_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Conv_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatExponent16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatExponent16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Softmax_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Softmax_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Sigmoid.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatReciprocal16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatReciprocal16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Sigmoid_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Window_partition_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Window_partition_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Conv_calc_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_calc_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatAdd16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatAdd16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatMult16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatMult16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Feature_map_selector_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Feature_map_selector_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Kernel_single_channel_calc_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Kernel_single_channel_calc_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatVectorAdd16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatVectorAdd16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Conv_single_kernel_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_single_kernel_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/AveragePooling_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AveragePooling_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Conv_layer_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Linear_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Linear_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatExponent16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatExponent16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Sigmoid_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatReciprocal16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatReciprocal16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Sigmoid_layer_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Softmax_layer_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Softmax_layer_TB
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1885.168 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '9' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Softmax_layer_TB_behav xil_defaultlib.Softmax_layer_TB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xlinx_Vivado/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Softmax_layer_TB_behav xil_defaultlib.Softmax_layer_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FloatMult16
+Compiling module xil_defaultlib.FloatAdd16
+Compiling module xil_defaultlib.FloatExponent16
+Compiling module xil_defaultlib.FloatReciprocal16
+Compiling module xil_defaultlib.Softmax_layer
+Compiling module xil_defaultlib.Softmax_layer_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Softmax_layer_TB_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1885.168 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Kernel_single_channel_calc_TB_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Kernel_single_channel_calc_TB_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Softmax_layer_TB_behav -key {Behavioral:sim_1:Functional:Softmax_layer_TB} -tclbatch {Softmax_layer_TB.tcl} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/AveragePooling_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Conv_layer_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Linear_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatExponent16_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatReciprocal16_TB_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/AveragePooling_TB_behav.wcfg}
+WARNING: Simulation object /AveragePooling_TB/clk was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/reset was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/result_element was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/add_element was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/in_feature_maps_set was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/out_feature_map was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/map_width was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/map_height was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/map_channels was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/result_width was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/result_height was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/result_channels was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/PERIOD was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/map_index was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/counter was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Conv_layer_TB_behav.wcfg}
+WARNING: Simulation object /Conv_layer_TB/clk was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/reset was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/in_feature_maps_set was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernels_set was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/conv_layer_agent/local_reset was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/conv_layer_agent/out_feature_map was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/out_feature_maps_set was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/map_width was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/map_height was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/map_channels was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_nums was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_width was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_height was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_channels was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/result_width was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/result_height was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/result_single_channel_size was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_size was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/PERIOD was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Linear_TB_behav.wcfg}
+WARNING: Simulation object /Linear_TB/clk was not found in the design.
+WARNING: Simulation object /Linear_TB/reset was not found in the design.
+WARNING: Simulation object /Linear_TB/weights was not found in the design.
+WARNING: Simulation object /Linear_TB/in_features was not found in the design.
+WARNING: Simulation object /Linear_TB/out_features was not found in the design.
+WARNING: Simulation object /Linear_TB/in_features_dim was not found in the design.
+WARNING: Simulation object /Linear_TB/out_features_dim was not found in the design.
+WARNING: Simulation object /Linear_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /Linear_TB/PERIOD was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/in_features_index was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/out_features_index was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/weight_index was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/weights_element was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/mul_element was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/out_features_element was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatExponent16_TB_behav.wcfg}
+WARNING: Simulation object /FloatExponent16_TB/clk was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/reset was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/x was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/exponent_x was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/PERIOD was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/counter was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_factors_set was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_factor was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_element was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_element_tmp was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/add_element was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/exponent_x_tmp was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatReciprocal16_TB_behav.wcfg}
+WARNING: Simulation object /FloatReciprocal16_TB/clk was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/reset was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/number was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/P2Ddash was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/Xi was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/mux was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/out0 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/out1 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/out2 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/Xip1 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/output_rec was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/ack was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/PERIOD was not found in the design.
+source Softmax_layer_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Softmax_layer_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:18 . Memory (MB): peak = 1885.168 ; gain = 0.000
+create_wave_config; add_wave /; set_property needs_save false [current_wave_config]
+run all
+355635563556
+$stop called at time : 10100 ns : File "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Softmax_layer_TB.v" Line 48
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top Linear_layer [current_fileset]
+set_property top Linear_layer_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Linear_layer_TB'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xlinx_Vivado/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Linear_layer_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Linear_layer_TB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Conv_calc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_calc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatAdd16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatAdd16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatMult16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatMult16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Window_partition.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Window_partition
+WARNING: [VRFC 10-2096] empty statement in sequential block [C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Window_partition.v:59]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/kernel_single_channel_calc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module kernel_single_channel_calc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Conv_single_kernel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_single_kernel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatVectorAdd16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatVectorAdd16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/AveragePooling.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AveragePooling_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Linear.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Linear_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Conv_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatExponent16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatExponent16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Softmax_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Softmax_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Sigmoid.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatReciprocal16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatReciprocal16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Sigmoid_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Window_partition_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Window_partition_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Conv_calc_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_calc_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatAdd16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatAdd16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatMult16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatMult16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Feature_map_selector_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Feature_map_selector_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Kernel_single_channel_calc_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Kernel_single_channel_calc_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatVectorAdd16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatVectorAdd16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Conv_single_kernel_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_single_kernel_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/AveragePooling_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AveragePooling_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Conv_layer_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Linear_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Linear_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatExponent16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatExponent16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Sigmoid_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatReciprocal16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatReciprocal16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Sigmoid_layer_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Softmax_layer_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Softmax_layer_TB
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1885.168 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Linear_layer_TB_behav xil_defaultlib.Linear_layer_TB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xlinx_Vivado/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Linear_layer_TB_behav xil_defaultlib.Linear_layer_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FloatMult16
+Compiling module xil_defaultlib.FloatAdd16
+Compiling module xil_defaultlib.Linear_layer
+Compiling module xil_defaultlib.Linear_layer_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Linear_layer_TB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Kernel_single_channel_calc_TB_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Kernel_single_channel_calc_TB_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Linear_layer_TB_behav -key {Behavioral:sim_1:Functional:Linear_layer_TB} -tclbatch {Linear_layer_TB.tcl} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/AveragePooling_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Conv_layer_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Linear_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatExponent16_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatReciprocal16_TB_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/AveragePooling_TB_behav.wcfg}
+WARNING: Simulation object /AveragePooling_TB/clk was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/reset was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/result_element was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/add_element was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/in_feature_maps_set was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/out_feature_map was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/map_width was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/map_height was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/map_channels was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/result_width was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/result_height was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/result_channels was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/PERIOD was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/map_index was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/counter was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Conv_layer_TB_behav.wcfg}
+WARNING: Simulation object /Conv_layer_TB/clk was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/reset was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/in_feature_maps_set was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernels_set was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/conv_layer_agent/local_reset was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/conv_layer_agent/out_feature_map was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/out_feature_maps_set was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/map_width was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/map_height was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/map_channels was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_nums was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_width was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_height was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_channels was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/result_width was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/result_height was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/result_single_channel_size was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_size was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/PERIOD was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Linear_TB_behav.wcfg}
+WARNING: Simulation object /Linear_TB/clk was not found in the design.
+WARNING: Simulation object /Linear_TB/reset was not found in the design.
+WARNING: Simulation object /Linear_TB/weights was not found in the design.
+WARNING: Simulation object /Linear_TB/in_features was not found in the design.
+WARNING: Simulation object /Linear_TB/out_features was not found in the design.
+WARNING: Simulation object /Linear_TB/in_features_dim was not found in the design.
+WARNING: Simulation object /Linear_TB/out_features_dim was not found in the design.
+WARNING: Simulation object /Linear_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /Linear_TB/PERIOD was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/in_features_index was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/out_features_index was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/weight_index was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/weights_element was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/mul_element was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/out_features_element was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatExponent16_TB_behav.wcfg}
+WARNING: Simulation object /FloatExponent16_TB/clk was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/reset was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/x was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/exponent_x was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/PERIOD was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/counter was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_factors_set was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_factor was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_element was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_element_tmp was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/add_element was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/exponent_x_tmp was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatReciprocal16_TB_behav.wcfg}
+WARNING: Simulation object /FloatReciprocal16_TB/clk was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/reset was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/number was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/P2Ddash was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/Xi was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/mux was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/out0 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/out1 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/out2 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/Xip1 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/output_rec was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/ack was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/PERIOD was not found in the design.
+source Linear_layer_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Linear_layer_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 1885.168 ; gain = 0.000
+create_wave_config; add_wave /; set_property needs_save false [current_wave_config]
+run all
+460046004600
+$stop called at time : 10100 ns : File "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Linear_TB.v" Line 53
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top AveragePooling_layer [current_fileset]
+set_property top AveragePooling_layer_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'AveragePooling_layer_TB'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xlinx_Vivado/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'AveragePooling_layer_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj AveragePooling_layer_TB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Conv_calc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_calc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatAdd16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatAdd16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatMult16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatMult16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Window_partition.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Window_partition
+WARNING: [VRFC 10-2096] empty statement in sequential block [C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Window_partition.v:59]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/kernel_single_channel_calc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module kernel_single_channel_calc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Conv_single_kernel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_single_kernel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatVectorAdd16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatVectorAdd16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/AveragePooling.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AveragePooling_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Linear.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Linear_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Conv_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatExponent16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatExponent16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Softmax_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Softmax_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Sigmoid.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatReciprocal16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatReciprocal16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Sigmoid_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Window_partition_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Window_partition_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Conv_calc_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_calc_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatAdd16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatAdd16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatMult16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatMult16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Feature_map_selector_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Feature_map_selector_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Kernel_single_channel_calc_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Kernel_single_channel_calc_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatVectorAdd16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatVectorAdd16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Conv_single_kernel_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_single_kernel_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/AveragePooling_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AveragePooling_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Conv_layer_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Linear_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Linear_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatExponent16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatExponent16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Sigmoid_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatReciprocal16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatReciprocal16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Sigmoid_layer_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Softmax_layer_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Softmax_layer_TB
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 1885.168 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '11' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot AveragePooling_layer_TB_behav xil_defaultlib.AveragePooling_layer_TB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xlinx_Vivado/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot AveragePooling_layer_TB_behav xil_defaultlib.AveragePooling_layer_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FloatAdd16
+Compiling module xil_defaultlib.FloatMult16
+Compiling module xil_defaultlib.AveragePooling_layer_default
+Compiling module xil_defaultlib.AveragePooling_layer_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot AveragePooling_layer_TB_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 1885.168 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Kernel_single_channel_calc_TB_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Kernel_single_channel_calc_TB_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "AveragePooling_layer_TB_behav -key {Behavioral:sim_1:Functional:AveragePooling_layer_TB} -tclbatch {AveragePooling_layer_TB.tcl} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/AveragePooling_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Conv_layer_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Linear_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatExponent16_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatReciprocal16_TB_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/AveragePooling_TB_behav.wcfg}
+WARNING: Simulation object /AveragePooling_TB/clk was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/reset was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/result_element was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/add_element was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/in_feature_maps_set was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/out_feature_map was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/map_width was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/map_height was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/map_channels was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/result_width was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/result_height was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/result_channels was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/PERIOD was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/map_index was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/counter was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Conv_layer_TB_behav.wcfg}
+WARNING: Simulation object /Conv_layer_TB/clk was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/reset was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/in_feature_maps_set was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernels_set was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/conv_layer_agent/local_reset was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/conv_layer_agent/out_feature_map was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/out_feature_maps_set was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/map_width was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/map_height was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/map_channels was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_nums was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_width was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_height was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_channels was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/result_width was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/result_height was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/result_single_channel_size was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_size was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/PERIOD was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Linear_TB_behav.wcfg}
+WARNING: Simulation object /Linear_TB/clk was not found in the design.
+WARNING: Simulation object /Linear_TB/reset was not found in the design.
+WARNING: Simulation object /Linear_TB/weights was not found in the design.
+WARNING: Simulation object /Linear_TB/in_features was not found in the design.
+WARNING: Simulation object /Linear_TB/out_features was not found in the design.
+WARNING: Simulation object /Linear_TB/in_features_dim was not found in the design.
+WARNING: Simulation object /Linear_TB/out_features_dim was not found in the design.
+WARNING: Simulation object /Linear_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /Linear_TB/PERIOD was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/in_features_index was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/out_features_index was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/weight_index was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/weights_element was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/mul_element was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/out_features_element was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatExponent16_TB_behav.wcfg}
+WARNING: Simulation object /FloatExponent16_TB/clk was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/reset was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/x was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/exponent_x was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/PERIOD was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/counter was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_factors_set was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_factor was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_element was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_element_tmp was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/add_element was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/exponent_x_tmp was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatReciprocal16_TB_behav.wcfg}
+WARNING: Simulation object /FloatReciprocal16_TB/clk was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/reset was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/number was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/P2Ddash was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/Xi was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/mux was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/out0 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/out1 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/out2 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/Xip1 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/output_rec was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/ack was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/PERIOD was not found in the design.
+source AveragePooling_layer_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'AveragePooling_layer_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:25 . Memory (MB): peak = 1885.168 ; gain = 0.000
+run all
+ 2967669637163275590417070060992755696869826488745424632379593550053214959601285058266565016612602437627544176270059183236800598032
+$stop called at time : 100100 ns : File "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/AveragePooling_TB.v" Line 52
+create_wave_config; add_wave /; set_property needs_save false [current_wave_config]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'AveragePooling_layer_TB'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xlinx_Vivado/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'AveragePooling_layer_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj AveragePooling_layer_TB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Conv_calc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_calc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatAdd16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatAdd16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatMult16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatMult16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Window_partition.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Window_partition
+WARNING: [VRFC 10-2096] empty statement in sequential block [C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Window_partition.v:59]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/kernel_single_channel_calc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module kernel_single_channel_calc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Conv_single_kernel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_single_kernel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatVectorAdd16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatVectorAdd16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/AveragePooling.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AveragePooling_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Linear.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Linear_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Conv_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatExponent16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatExponent16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Softmax_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Softmax_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Sigmoid.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatReciprocal16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatReciprocal16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Sigmoid_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Window_partition_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Window_partition_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Conv_calc_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_calc_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatAdd16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatAdd16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatMult16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatMult16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Feature_map_selector_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Feature_map_selector_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Kernel_single_channel_calc_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Kernel_single_channel_calc_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatVectorAdd16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatVectorAdd16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Conv_single_kernel_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_single_kernel_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/AveragePooling_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AveragePooling_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Conv_layer_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Linear_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Linear_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatExponent16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatExponent16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Sigmoid_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatReciprocal16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatReciprocal16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Sigmoid_layer_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Softmax_layer_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Softmax_layer_TB
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:13 . Memory (MB): peak = 1885.168 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '13' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot AveragePooling_layer_TB_behav xil_defaultlib.AveragePooling_layer_TB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xlinx_Vivado/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot AveragePooling_layer_TB_behav xil_defaultlib.AveragePooling_layer_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FloatAdd16
+Compiling module xil_defaultlib.FloatMult16
+Compiling module xil_defaultlib.AveragePooling_layer_default
+Compiling module xil_defaultlib.AveragePooling_layer_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot AveragePooling_layer_TB_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 1885.168 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '11' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Kernel_single_channel_calc_TB_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Kernel_single_channel_calc_TB_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "AveragePooling_layer_TB_behav -key {Behavioral:sim_1:Functional:AveragePooling_layer_TB} -tclbatch {AveragePooling_layer_TB.tcl} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/AveragePooling_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Conv_layer_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Linear_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatExponent16_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatReciprocal16_TB_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/AveragePooling_TB_behav.wcfg}
+WARNING: Simulation object /AveragePooling_TB/clk was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/reset was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/result_element was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/add_element was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/in_feature_maps_set was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/out_feature_map was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/map_width was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/map_height was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/map_channels was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/result_width was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/result_height was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/result_channels was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/PERIOD was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/map_index was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/counter was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Conv_layer_TB_behav.wcfg}
+WARNING: Simulation object /Conv_layer_TB/clk was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/reset was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/in_feature_maps_set was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernels_set was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/conv_layer_agent/local_reset was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/conv_layer_agent/out_feature_map was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/out_feature_maps_set was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/map_width was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/map_height was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/map_channels was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_nums was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_width was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_height was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_channels was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/result_width was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/result_height was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/result_single_channel_size was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_size was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/PERIOD was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Linear_TB_behav.wcfg}
+WARNING: Simulation object /Linear_TB/clk was not found in the design.
+WARNING: Simulation object /Linear_TB/reset was not found in the design.
+WARNING: Simulation object /Linear_TB/weights was not found in the design.
+WARNING: Simulation object /Linear_TB/in_features was not found in the design.
+WARNING: Simulation object /Linear_TB/out_features was not found in the design.
+WARNING: Simulation object /Linear_TB/in_features_dim was not found in the design.
+WARNING: Simulation object /Linear_TB/out_features_dim was not found in the design.
+WARNING: Simulation object /Linear_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /Linear_TB/PERIOD was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/in_features_index was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/out_features_index was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/weight_index was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/weights_element was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/mul_element was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/out_features_element was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatExponent16_TB_behav.wcfg}
+WARNING: Simulation object /FloatExponent16_TB/clk was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/reset was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/x was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/exponent_x was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/PERIOD was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/counter was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_factors_set was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_factor was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_element was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_element_tmp was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/add_element was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/exponent_x_tmp was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatReciprocal16_TB_behav.wcfg}
+WARNING: Simulation object /FloatReciprocal16_TB/clk was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/reset was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/number was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/P2Ddash was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/Xi was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/mux was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/out0 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/out1 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/out2 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/Xip1 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/output_rec was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/ack was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/PERIOD was not found in the design.
+source AveragePooling_layer_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'AveragePooling_layer_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:26 . Memory (MB): peak = 1885.168 ; gain = 0.000
+run all
+ 2967669637163275590417070060992755696869826488745424632379593550053214959601285058266565016612602437627544176270059183236800598032
+$stop called at time : 100100 ns : File "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/AveragePooling_TB.v" Line 52
+create_wave_config; add_wave /; set_property needs_save false [current_wave_config]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top Softmax_layer [current_fileset]
+set_property top Softmax_layer_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Softmax_layer_TB'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xlinx_Vivado/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Softmax_layer_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Softmax_layer_TB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Conv_calc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_calc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatAdd16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatAdd16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatMult16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatMult16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Window_partition.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Window_partition
+WARNING: [VRFC 10-2096] empty statement in sequential block [C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Window_partition.v:59]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/kernel_single_channel_calc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module kernel_single_channel_calc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Conv_single_kernel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_single_kernel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatVectorAdd16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatVectorAdd16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/AveragePooling.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AveragePooling_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Linear.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Linear_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Conv_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatExponent16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatExponent16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Softmax_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Softmax_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Sigmoid.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatReciprocal16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatReciprocal16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Sigmoid_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Window_partition_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Window_partition_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Conv_calc_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_calc_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatAdd16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatAdd16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatMult16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatMult16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Feature_map_selector_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Feature_map_selector_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Kernel_single_channel_calc_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Kernel_single_channel_calc_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatVectorAdd16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatVectorAdd16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Conv_single_kernel_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_single_kernel_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/AveragePooling_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AveragePooling_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Conv_layer_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Linear_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Linear_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatExponent16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatExponent16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Sigmoid_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatReciprocal16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatReciprocal16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Sigmoid_layer_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Softmax_layer_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Softmax_layer_TB
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:23 . Memory (MB): peak = 1914.148 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '24' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Softmax_layer_TB_behav xil_defaultlib.Softmax_layer_TB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xlinx_Vivado/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Softmax_layer_TB_behav xil_defaultlib.Softmax_layer_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FloatMult16
+Compiling module xil_defaultlib.FloatAdd16
+Compiling module xil_defaultlib.FloatExponent16
+Compiling module xil_defaultlib.FloatReciprocal16
+Compiling module xil_defaultlib.Softmax_layer
+Compiling module xil_defaultlib.Softmax_layer_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Softmax_layer_TB_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1914.148 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Kernel_single_channel_calc_TB_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Kernel_single_channel_calc_TB_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Softmax_layer_TB_behav -key {Behavioral:sim_1:Functional:Softmax_layer_TB} -tclbatch {Softmax_layer_TB.tcl} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/AveragePooling_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Conv_layer_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Linear_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatExponent16_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatReciprocal16_TB_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/AveragePooling_TB_behav.wcfg}
+WARNING: Simulation object /AveragePooling_TB/clk was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/reset was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/result_element was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/add_element was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/in_feature_maps_set was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/out_feature_map was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/map_width was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/map_height was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/map_channels was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/result_width was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/result_height was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/result_channels was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/PERIOD was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/map_index was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/counter was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Conv_layer_TB_behav.wcfg}
+WARNING: Simulation object /Conv_layer_TB/clk was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/reset was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/in_feature_maps_set was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernels_set was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/conv_layer_agent/local_reset was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/conv_layer_agent/out_feature_map was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/out_feature_maps_set was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/map_width was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/map_height was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/map_channels was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_nums was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_width was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_height was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_channels was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/result_width was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/result_height was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/result_single_channel_size was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_size was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/PERIOD was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Linear_TB_behav.wcfg}
+WARNING: Simulation object /Linear_TB/clk was not found in the design.
+WARNING: Simulation object /Linear_TB/reset was not found in the design.
+WARNING: Simulation object /Linear_TB/weights was not found in the design.
+WARNING: Simulation object /Linear_TB/in_features was not found in the design.
+WARNING: Simulation object /Linear_TB/out_features was not found in the design.
+WARNING: Simulation object /Linear_TB/in_features_dim was not found in the design.
+WARNING: Simulation object /Linear_TB/out_features_dim was not found in the design.
+WARNING: Simulation object /Linear_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /Linear_TB/PERIOD was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/in_features_index was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/out_features_index was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/weight_index was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/weights_element was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/mul_element was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/out_features_element was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatExponent16_TB_behav.wcfg}
+WARNING: Simulation object /FloatExponent16_TB/clk was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/reset was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/x was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/exponent_x was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/PERIOD was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/counter was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_factors_set was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_factor was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_element was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_element_tmp was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/add_element was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/exponent_x_tmp was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatReciprocal16_TB_behav.wcfg}
+WARNING: Simulation object /FloatReciprocal16_TB/clk was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/reset was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/number was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/P2Ddash was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/Xi was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/mux was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/out0 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/out1 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/out2 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/Xip1 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/output_rec was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/ack was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/PERIOD was not found in the design.
+source Softmax_layer_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Softmax_layer_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:34 . Memory (MB): peak = 1914.148 ; gain = 0.000
+run all
+355635563556
+$stop called at time : 10100 ns : File "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Softmax_layer_TB.v" Line 48
+create_wave_config; add_wave /; set_property needs_save false [current_wave_config]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top Linear_layer [current_fileset]
+set_property top Linear_layer_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Linear_layer_TB'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xlinx_Vivado/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Linear_layer_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Linear_layer_TB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Conv_calc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_calc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatAdd16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatAdd16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatMult16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatMult16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Window_partition.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Window_partition
+WARNING: [VRFC 10-2096] empty statement in sequential block [C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Window_partition.v:59]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/kernel_single_channel_calc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module kernel_single_channel_calc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Conv_single_kernel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_single_kernel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatVectorAdd16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatVectorAdd16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/AveragePooling.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AveragePooling_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Linear.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Linear_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Conv_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatExponent16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatExponent16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Softmax_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Softmax_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Sigmoid.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatReciprocal16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatReciprocal16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Sigmoid_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Window_partition_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Window_partition_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Conv_calc_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_calc_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatAdd16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatAdd16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatMult16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatMult16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Feature_map_selector_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Feature_map_selector_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Kernel_single_channel_calc_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Kernel_single_channel_calc_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatVectorAdd16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatVectorAdd16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Conv_single_kernel_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_single_kernel_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/AveragePooling_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AveragePooling_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Conv_layer_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Linear_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Linear_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatExponent16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatExponent16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Sigmoid_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatReciprocal16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatReciprocal16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Sigmoid_layer_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Softmax_layer_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Softmax_layer_TB
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:13 . Memory (MB): peak = 1915.582 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '13' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Linear_layer_TB_behav xil_defaultlib.Linear_layer_TB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xlinx_Vivado/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Linear_layer_TB_behav xil_defaultlib.Linear_layer_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FloatMult16
+Compiling module xil_defaultlib.FloatAdd16
+Compiling module xil_defaultlib.Linear_layer
+Compiling module xil_defaultlib.Linear_layer_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Linear_layer_TB_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1915.582 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Kernel_single_channel_calc_TB_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Kernel_single_channel_calc_TB_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Linear_layer_TB_behav -key {Behavioral:sim_1:Functional:Linear_layer_TB} -tclbatch {Linear_layer_TB.tcl} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/AveragePooling_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Conv_layer_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Linear_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatExponent16_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatReciprocal16_TB_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/AveragePooling_TB_behav.wcfg}
+WARNING: Simulation object /AveragePooling_TB/clk was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/reset was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/result_element was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/add_element was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/in_feature_maps_set was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/out_feature_map was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/map_width was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/map_height was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/map_channels was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/result_width was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/result_height was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/result_channels was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/PERIOD was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/map_index was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/counter was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Conv_layer_TB_behav.wcfg}
+WARNING: Simulation object /Conv_layer_TB/clk was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/reset was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/in_feature_maps_set was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernels_set was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/conv_layer_agent/local_reset was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/conv_layer_agent/out_feature_map was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/out_feature_maps_set was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/map_width was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/map_height was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/map_channels was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_nums was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_width was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_height was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_channels was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/result_width was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/result_height was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/result_single_channel_size was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_size was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/PERIOD was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Linear_TB_behav.wcfg}
+WARNING: Simulation object /Linear_TB/clk was not found in the design.
+WARNING: Simulation object /Linear_TB/reset was not found in the design.
+WARNING: Simulation object /Linear_TB/weights was not found in the design.
+WARNING: Simulation object /Linear_TB/in_features was not found in the design.
+WARNING: Simulation object /Linear_TB/out_features was not found in the design.
+WARNING: Simulation object /Linear_TB/in_features_dim was not found in the design.
+WARNING: Simulation object /Linear_TB/out_features_dim was not found in the design.
+WARNING: Simulation object /Linear_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /Linear_TB/PERIOD was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/in_features_index was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/out_features_index was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/weight_index was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/weights_element was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/mul_element was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/out_features_element was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatExponent16_TB_behav.wcfg}
+WARNING: Simulation object /FloatExponent16_TB/clk was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/reset was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/x was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/exponent_x was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/PERIOD was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/counter was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_factors_set was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_factor was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_element was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_element_tmp was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/add_element was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/exponent_x_tmp was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatReciprocal16_TB_behav.wcfg}
+WARNING: Simulation object /FloatReciprocal16_TB/clk was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/reset was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/number was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/P2Ddash was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/Xi was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/mux was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/out0 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/out1 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/out2 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/Xip1 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/output_rec was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/ack was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/PERIOD was not found in the design.
+source Linear_layer_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Linear_layer_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:21 . Memory (MB): peak = 1915.582 ; gain = 0.000
+run all
+460046004600
+$stop called at time : 10100 ns : File "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Linear_TB.v" Line 53
+create_wave_config; add_wave /; set_property needs_save false [current_wave_config]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top Conv_layer [current_fileset]
+set_property top Conv_layer_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Conv_layer_TB'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xlinx_Vivado/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Conv_layer_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Conv_layer_TB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Conv_calc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_calc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatAdd16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatAdd16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatMult16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatMult16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Window_partition.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Window_partition
+WARNING: [VRFC 10-2096] empty statement in sequential block [C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Window_partition.v:59]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/kernel_single_channel_calc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module kernel_single_channel_calc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Conv_single_kernel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_single_kernel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatVectorAdd16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatVectorAdd16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/AveragePooling.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AveragePooling_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Linear.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Linear_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Conv_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatExponent16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatExponent16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Softmax_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Softmax_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Sigmoid.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatReciprocal16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatReciprocal16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Sigmoid_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Window_partition_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Window_partition_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Conv_calc_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_calc_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatAdd16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatAdd16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatMult16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatMult16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Feature_map_selector_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Feature_map_selector_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Kernel_single_channel_calc_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Kernel_single_channel_calc_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatVectorAdd16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatVectorAdd16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Conv_single_kernel_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_single_kernel_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/AveragePooling_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AveragePooling_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Conv_layer_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Linear_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Linear_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatExponent16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatExponent16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Sigmoid_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatReciprocal16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatReciprocal16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Sigmoid_layer_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Softmax_layer_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Softmax_layer_TB
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:23 . Memory (MB): peak = 1956.371 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '24' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Conv_layer_TB_behav xil_defaultlib.Conv_layer_TB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xlinx_Vivado/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Conv_layer_TB_behav xil_defaultlib.Conv_layer_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 16 for port 'result_element' [C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Conv_single_kernel.v:84]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Window_partition(map_width=6,map...
+Compiling module xil_defaultlib.FloatMult16
+Compiling module xil_defaultlib.FloatAdd16
+Compiling module xil_defaultlib.Conv_calc
+Compiling module xil_defaultlib.kernel_single_channel_calc_defau...
+Compiling module xil_defaultlib.FloatVectorAdd16(vectorA_length=...
+Compiling module xil_defaultlib.Conv_single_kernel(kernel_channe...
+Compiling module xil_defaultlib.Conv_layer(kernel_channels=3)
+Compiling module xil_defaultlib.Conv_layer_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Conv_layer_TB_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1956.371 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Kernel_single_channel_calc_TB_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Kernel_single_channel_calc_TB_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Conv_layer_TB_behav -key {Behavioral:sim_1:Functional:Conv_layer_TB} -tclbatch {Conv_layer_TB.tcl} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/AveragePooling_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Conv_layer_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Linear_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatExponent16_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatReciprocal16_TB_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/AveragePooling_TB_behav.wcfg}
+WARNING: Simulation object /AveragePooling_TB/clk was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/reset was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/result_element was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/add_element was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/in_feature_maps_set was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/out_feature_map was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/map_width was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/map_height was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/map_channels was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/result_width was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/result_height was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/result_channels was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/PERIOD was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/map_index was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/counter was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Conv_layer_TB_behav.wcfg}
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Linear_TB_behav.wcfg}
+WARNING: Simulation object /Linear_TB/clk was not found in the design.
+WARNING: Simulation object /Linear_TB/reset was not found in the design.
+WARNING: Simulation object /Linear_TB/weights was not found in the design.
+WARNING: Simulation object /Linear_TB/in_features was not found in the design.
+WARNING: Simulation object /Linear_TB/out_features was not found in the design.
+WARNING: Simulation object /Linear_TB/in_features_dim was not found in the design.
+WARNING: Simulation object /Linear_TB/out_features_dim was not found in the design.
+WARNING: Simulation object /Linear_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /Linear_TB/PERIOD was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/in_features_index was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/out_features_index was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/weight_index was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/weights_element was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/mul_element was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/out_features_element was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatExponent16_TB_behav.wcfg}
+WARNING: Simulation object /FloatExponent16_TB/clk was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/reset was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/x was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/exponent_x was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/PERIOD was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/counter was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_factors_set was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_factor was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_element was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_element_tmp was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/add_element was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/exponent_x_tmp was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatReciprocal16_TB_behav.wcfg}
+WARNING: Simulation object /FloatReciprocal16_TB/clk was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/reset was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/number was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/P2Ddash was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/Xi was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/mux was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/out0 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/out1 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/out2 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/Xip1 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/output_rec was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/ack was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/PERIOD was not found in the design.
+source Conv_layer_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Conv_layer_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:34 . Memory (MB): peak = 1956.371 ; gain = 0.000
+run all
+ 550364010640571618026405865084825876682434342362558871589956134630601884063547853429969197517229394255391555900417185181505357046137712904711177826402247946688762013525642609425015683421936470984594273887428312070515321961657688606
+$stop called at time : 300100 ns : File "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Conv_layer_TB.v" Line 63
+create_wave_config; add_wave /; set_property needs_save false [current_wave_config]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top Sigmoid_layer [current_fileset]
+set_property top Sigmoid_layer_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Sigmoid_layer_TB'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xlinx_Vivado/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Sigmoid_layer_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Sigmoid_layer_TB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Conv_calc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_calc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatAdd16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatAdd16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatMult16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatMult16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Window_partition.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Window_partition
+WARNING: [VRFC 10-2096] empty statement in sequential block [C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Window_partition.v:59]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/kernel_single_channel_calc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module kernel_single_channel_calc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Conv_single_kernel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_single_kernel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatVectorAdd16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatVectorAdd16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/AveragePooling.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AveragePooling_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Linear.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Linear_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Conv_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatExponent16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatExponent16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Softmax_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Softmax_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Sigmoid.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatReciprocal16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatReciprocal16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Sigmoid_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Window_partition_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Window_partition_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Conv_calc_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_calc_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatAdd16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatAdd16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatMult16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatMult16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Feature_map_selector_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Feature_map_selector_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Kernel_single_channel_calc_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Kernel_single_channel_calc_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatVectorAdd16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatVectorAdd16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Conv_single_kernel_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_single_kernel_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/AveragePooling_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AveragePooling_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Conv_layer_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Linear_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Linear_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatExponent16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatExponent16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Sigmoid_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatReciprocal16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatReciprocal16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Sigmoid_layer_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Softmax_layer_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Softmax_layer_TB
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 2006.754 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '11' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Sigmoid_layer_TB_behav xil_defaultlib.Sigmoid_layer_TB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xlinx_Vivado/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Sigmoid_layer_TB_behav xil_defaultlib.Sigmoid_layer_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FloatMult16
+Compiling module xil_defaultlib.FloatAdd16
+Compiling module xil_defaultlib.FloatExponent16
+Compiling module xil_defaultlib.FloatReciprocal16
+Compiling module xil_defaultlib.Sigmoid
+Compiling module xil_defaultlib.Sigmoid_layer
+Compiling module xil_defaultlib.Sigmoid_layer_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Sigmoid_layer_TB_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 2006.754 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Kernel_single_channel_calc_TB_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Kernel_single_channel_calc_TB_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Sigmoid_layer_TB_behav -key {Behavioral:sim_1:Functional:Sigmoid_layer_TB} -tclbatch {Sigmoid_layer_TB.tcl} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/AveragePooling_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Conv_layer_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Linear_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatExponent16_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatReciprocal16_TB_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/AveragePooling_TB_behav.wcfg}
+WARNING: Simulation object /AveragePooling_TB/clk was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/reset was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/result_element was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/add_element was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/in_feature_maps_set was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/out_feature_map was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/map_width was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/map_height was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/map_channels was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/result_width was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/result_height was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/result_channels was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/PERIOD was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/map_index was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/counter was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Conv_layer_TB_behav.wcfg}
+WARNING: Simulation object /Conv_layer_TB/clk was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/reset was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/in_feature_maps_set was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernels_set was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/conv_layer_agent/local_reset was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/conv_layer_agent/out_feature_map was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/out_feature_maps_set was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/map_width was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/map_height was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/map_channels was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_nums was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_width was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_height was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_channels was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/result_width was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/result_height was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/result_single_channel_size was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_size was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/PERIOD was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Linear_TB_behav.wcfg}
+WARNING: Simulation object /Linear_TB/clk was not found in the design.
+WARNING: Simulation object /Linear_TB/reset was not found in the design.
+WARNING: Simulation object /Linear_TB/weights was not found in the design.
+WARNING: Simulation object /Linear_TB/in_features was not found in the design.
+WARNING: Simulation object /Linear_TB/out_features was not found in the design.
+WARNING: Simulation object /Linear_TB/in_features_dim was not found in the design.
+WARNING: Simulation object /Linear_TB/out_features_dim was not found in the design.
+WARNING: Simulation object /Linear_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /Linear_TB/PERIOD was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/in_features_index was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/out_features_index was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/weight_index was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/weights_element was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/mul_element was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/out_features_element was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatExponent16_TB_behav.wcfg}
+WARNING: Simulation object /FloatExponent16_TB/clk was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/reset was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/x was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/exponent_x was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/PERIOD was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/counter was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_factors_set was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_factor was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_element was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_element_tmp was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/add_element was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/exponent_x_tmp was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatReciprocal16_TB_behav.wcfg}
+WARNING: Simulation object /FloatReciprocal16_TB/clk was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/reset was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/number was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/P2Ddash was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/Xi was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/mux was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/out0 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/out1 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/out2 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/Xip1 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/output_rec was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/ack was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/PERIOD was not found in the design.
+source Sigmoid_layer_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Sigmoid_layer_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:21 . Memory (MB): peak = 2006.754 ; gain = 0.000
+run all
+39d939d939d9
+$stop called at time : 10100 ns : File "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Sigmoid_layer_TB.v" Line 48
+create_wave_config; add_wave /; set_property needs_save false [current_wave_config]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Sigmoid_layer_TB'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xlinx_Vivado/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Sigmoid_layer_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Sigmoid_layer_TB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Conv_calc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_calc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatAdd16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatAdd16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatMult16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatMult16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Window_partition.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Window_partition
+WARNING: [VRFC 10-2096] empty statement in sequential block [C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Window_partition.v:59]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/kernel_single_channel_calc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module kernel_single_channel_calc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Conv_single_kernel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_single_kernel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatVectorAdd16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatVectorAdd16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/AveragePooling.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AveragePooling_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Linear.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Linear_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Conv_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatExponent16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatExponent16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Softmax_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Softmax_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Sigmoid.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/FloatReciprocal16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatReciprocal16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/Sigmoid_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Window_partition_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Window_partition_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Conv_calc_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_calc_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatAdd16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatAdd16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatMult16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatMult16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Feature_map_selector_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Feature_map_selector_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Kernel_single_channel_calc_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Kernel_single_channel_calc_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatVectorAdd16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatVectorAdd16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Conv_single_kernel_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_single_kernel_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/AveragePooling_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AveragePooling_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Conv_layer_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Linear_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Linear_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatExponent16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatExponent16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Sigmoid_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/FloatReciprocal16_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatReciprocal16_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Sigmoid_layer_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sigmoid_layer_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Softmax_layer_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Softmax_layer_TB
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 2006.754 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '9' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Sigmoid_layer_TB_behav xil_defaultlib.Sigmoid_layer_TB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xlinx_Vivado/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Sigmoid_layer_TB_behav xil_defaultlib.Sigmoid_layer_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FloatMult16
+Compiling module xil_defaultlib.FloatAdd16
+Compiling module xil_defaultlib.FloatExponent16
+Compiling module xil_defaultlib.FloatReciprocal16
+Compiling module xil_defaultlib.Sigmoid
+Compiling module xil_defaultlib.Sigmoid_layer
+Compiling module xil_defaultlib.Sigmoid_layer_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Sigmoid_layer_TB_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 2006.754 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Kernel_single_channel_calc_TB_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Kernel_single_channel_calc_TB_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Sigmoid_layer_TB_behav -key {Behavioral:sim_1:Functional:Sigmoid_layer_TB} -tclbatch {Sigmoid_layer_TB.tcl} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/AveragePooling_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Conv_layer_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Linear_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatExponent16_TB_behav.wcfg}} -view {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatReciprocal16_TB_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/AveragePooling_TB_behav.wcfg}
+WARNING: Simulation object /AveragePooling_TB/clk was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/reset was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/result_element was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/add_element was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/in_feature_maps_set was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/out_feature_map was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/map_width was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/map_height was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/map_channels was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/result_width was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/result_height was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/result_channels was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/PERIOD was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/map_index was not found in the design.
+WARNING: Simulation object /AveragePooling_TB/averagepooling_agent/counter was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Conv_layer_TB_behav.wcfg}
+WARNING: Simulation object /Conv_layer_TB/clk was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/reset was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/in_feature_maps_set was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernels_set was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/conv_layer_agent/local_reset was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/conv_layer_agent/out_feature_map was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/out_feature_maps_set was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/map_width was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/map_height was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/map_channels was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_nums was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_width was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_height was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_channels was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/result_width was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/result_height was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/result_single_channel_size was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/kernel_size was not found in the design.
+WARNING: Simulation object /Conv_layer_TB/PERIOD was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/Linear_TB_behav.wcfg}
+WARNING: Simulation object /Linear_TB/clk was not found in the design.
+WARNING: Simulation object /Linear_TB/reset was not found in the design.
+WARNING: Simulation object /Linear_TB/weights was not found in the design.
+WARNING: Simulation object /Linear_TB/in_features was not found in the design.
+WARNING: Simulation object /Linear_TB/out_features was not found in the design.
+WARNING: Simulation object /Linear_TB/in_features_dim was not found in the design.
+WARNING: Simulation object /Linear_TB/out_features_dim was not found in the design.
+WARNING: Simulation object /Linear_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /Linear_TB/PERIOD was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/in_features_index was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/out_features_index was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/weight_index was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/weights_element was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/mul_element was not found in the design.
+WARNING: Simulation object /Linear_TB/linear_agent/out_features_element was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatExponent16_TB_behav.wcfg}
+WARNING: Simulation object /FloatExponent16_TB/clk was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/reset was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/x was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/exponent_x was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/PERIOD was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/counter was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_factors_set was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_factor was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_element was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/mul_element_tmp was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/add_element was not found in the design.
+WARNING: Simulation object /FloatExponent16_TB/floatexponent16_calc/exponent_x_tmp was not found in the design.
+open_wave_config {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FloatReciprocal16_TB_behav.wcfg}
+WARNING: Simulation object /FloatReciprocal16_TB/clk was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/reset was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/number was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/P2Ddash was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/Xi was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/mux was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/out0 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/out1 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/out2 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/floatreciprocal16_calc/Xip1 was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/output_rec was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/ack was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/DATA_WIDTH was not found in the design.
+WARNING: Simulation object /FloatReciprocal16_TB/PERIOD was not found in the design.
+source Sigmoid_layer_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Sigmoid_layer_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:19 . Memory (MB): peak = 2006.754 ; gain = 0.000
+run all
+39d939d939d9
+$stop called at time : 10100 ns : File "C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sim_1/new/Sigmoid_layer_TB.v" Line 48
+create_wave_config; add_wave /; set_property needs_save false [current_wave_config]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close [ open {C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/LeNet.v} w ]
+add_files {{C:/Users/gzr/Desktop/FPGA neural network/FPGA-CNN-LeNet/FPGA-CNN-LeNet.srcs/sources_1/new/LeNet.v}}
+WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
+WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
+WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
+WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
+WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
+WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
+WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
+WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
+WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
+WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
+WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
+WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 24 22:25:36 2024...
