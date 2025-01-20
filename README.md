@@ -4,7 +4,7 @@
 
 
 A FPGA implementation of LeNet, simulated on Vivado.  
-This version is according to LeNet-5: Gradient-Based Learning Applied to Document Recognition.    
+This version is according to *LeNet-5: Gradient-Based Learning Applied to Document Recognition*.    
 **The computational paradigm of convolutional neural networks is complete**, but the accuracy is only reserved to float16, the convolutional calculation will overflow in the final accumulation step, resulting in inaccurate results.  
 This project is still updating and you can look forward to the next version!  
 
