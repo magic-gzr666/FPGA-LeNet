@@ -1,11 +1,12 @@
 # FPGA-LeNet  
 ## Introduction
-<img width="1263" alt="69ef2d8b3c4b06e1a16a0d3b57f0775" src="https://github.com/user-attachments/assets/4de3dc08-9799-4bc0-a293-2bcb7c3c658a" />
+<img width="1280" alt="26f18f0402cb267395cdc86520be4ad" src="https://github.com/user-attachments/assets/509d6116-e411-4667-adb1-d5b80c52ad30" />
+
 
 A FPGA implementation of LeNet, simulated on Vivado.  
 This version is according to LeNet-5: Gradient-Based Learning Applied to Document Recognition.  
-Not fully utilize features of FPGA yet.  
-Not finished completely yet because of some mistakes in Softmax Layer.  
+**The computational paradigm of convolutional neural networks is complete**, but the accuracy is only reserved to float16, the convolutional calculation will overflow in the final accumulation step, resulting in inaccurate results.
+This project is still updating and you can look forward to the next version!
 
 ## Implementation Details
 <img width="1010" alt="b0343dd1bcb78b5f63c1a360b8b3091e" src="https://github.com/user-attachments/assets/a061ad74-d9d0-4a4d-9f87-b80c8c627a3d" />
